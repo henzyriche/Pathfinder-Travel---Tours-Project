@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"           content="Henry">
+    <meta name="description"         content="Travel and Tour Website">
+    <meta name="keywords"            content="Pathfinder + Travel + Tour">
+
+    <!--Linkin CSS-->
+    <link rel="stylesheet" href="./assests/css/style.css">
+
+    <!--Creating icon-->
+    <link href="./assests/images/pathfinder-fotor-bg-remover-20230523214440.png" rel="icon">
+
+    <!--Linking external CSS-->
+    <!-----Linking font awesome------>
+    <link rel="stylesheet" href="./assests/fonts/css/all.css">
+    <link rel="stylesheet" href="./assests/fontawesome-free-6.4.0-web/css/all.css">
+    
+    
+
+    <!--Linking google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+
+    <title>pathfindertravelandtours</title>
+</head>
+<body>
+<!--CREATING NAVIGATION BAR-->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <h1 class="logo">Path<span style="color: rgb(248, 108, 108); font-weight: 600;">Finder</span></h1>
+        </div>
+    </nav>
+
+    <!--VIDEO SECTION-->
+    <div class="video-section">
+        <video autoplay muted loop id="background-video">
+            <source src="./assests/videos/travel and tours.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+        <div class="overlay-content">
+            <h1>PathFinder Travel & Tours</h1>
+            <p>Experience the thrill of a lifetime with our exclusive tours.</p>
+            <a href="#explore" class="cta-button">Explore Now</a>
+        </div>
+    </div>
+
+    <section class="booking-container">
+       
+        <div class="card">
+          <div class="icon"><i class="fa-sharp fa-solid fa-ticket"  id="ticket"></i></div>
+          <span>Flight Bookings</span>
+          <p>Get the best of flight bookings at Pathfinders Travel
+            and Tours and explore the World with Ease!.</p>
+        </div>
+    
+        <div class="card">
+          <div class="icon"><i class="fa-brands fa-cc-visa"   id="visa"></i></div>
+        <span>Visa Assistance</span>
+          <p>  We are ready to assist you with all your Visa needs.</p>
+        </div>
+
+        
+      </section>
+
+      <section class="hotel-container">
+        <div class="card">
+          <div class="icon"> <i class="fa-solid fa-hotel"  id="hotel"></i></i></div>
+          <span>Hotel Reservations</span>
+          <p> With us you are guaranteed of the very best of Hotel Services.</p>
+        </div>
+    
+        <div class="card">
+          <div class="icon"> <i class="fa-sharp fa-solid fa-people-group"    id="group"></i></div>
+          <span>Group Travels & Tours</span>
+          <p> We have you the best packages when it comes to group travels or tours with us.</p>
+        </div>
+      </section>
+
+      <section class="travel-section">
+        <div class="text-content">
+          <h2>PathFinder Travel and Tours</h2>
+          <p>Pathfinder Travel and Tours
+            your one-stop destination for all your travel needs. We are a passionate
+            team of travel enthusiasts who have come together to make your travel
+            dreams a reality. Our mission is to provide you with an unforgettable travel
+            experience that takes you beyond the ordinary and into the extraordinary.
+            We believe that travel is more than just visiting a new place, it’s about creating memories and connecting with the world.</p>
+          <a href="#" class="travel-button">Read More</a>
+        </div>
+        <div class="image-container">
+          <img src="./assests/images/dream destination.png" id="travel-image">
+        </div>
+      </section>
+
+      <section class="country-section">
+        <div class="country-card">
+            <img src="./assests/images/france.jpeg" alt="Image 1">
+            <div class="country-card-content">
+                <h3>France</h3>
+                <span><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i></span>
+                  &nbsp;&nbsp; $3,000
+                <p>Paris, Monaco, Lyon &nbsp;&nbsp;&nbsp;
+                   <i class="fa-solid fa-circle" id="circle"></i>13 days</p>
+            </div>
+        </div>
+        <div class="country-card">
+            <img src="./assests/images/spain.jpeg" alt="Image 2">
+            <div class="country-card-content">
+              <h3>Spain</h3>
+              <span><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i></span>
+                &nbsp;&nbsp; $3,000
+              <p>Madrid, Ibiza, Barcelona &nbsp;&nbsp;&nbsp;
+                 <i class="fa-solid fa-circle" id="circle"></i>9 days</p>
+            </div>
+        </div>
+        <div class="country-card">
+            <img src="./assests/images/USA.jpeg" alt="Image 3">
+            <div class="country-card-content">
+              <h3>United States</h3>
+              <span><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i></span>
+                &nbsp;&nbsp; $5,200
+              <p>Florida, Texas, California &nbsp;&nbsp;&nbsp;
+                 <i class="fa-solid fa-circle" id="circle"></i>9 days</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="country-section">
+      <div class="country-card">
+          <img src="./assests/images/qatar.jpeg" alt="Image 1">
+          <div class="country-card-content">
+              <h3>Qatar</h3>
+              <span><i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i></span>
+                &nbsp;&nbsp; $6,400
+              <p>Doha, Al-Rayyan, Al-Wakkrah &nbsp;&nbsp;&nbsp;
+                 <i class="fa-solid fa-circle" id="circle"></i>13 days</p>
+          </div>
+      </div>
+      <div class="country-card">
+          <img src="./assests/images/United Kingdom.jpeg" alt="Image 2">
+          <div class="country-card-content">
+            <h3>United Kingdom</h3>
+            <span><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i></span>
+              &nbsp;&nbsp; $5,000
+            <p>England, Scotland, Wales &nbsp;&nbsp;&nbsp;
+               <i class="fa-solid fa-circle" id="circle"></i>13 days</p>
+          </div>
+      </div>
+      <div class="country-card">
+          <img src="./assests/images/italy.jpeg" alt="Image 3">
+          <div class="country-card-content">
+            <h3>Italy</h3>
+            <span><i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i></span>
+              &nbsp;&nbsp; $1,500
+            <p>Rome, Milan, Venice &nbsp;&nbsp;&nbsp;
+               <i class="fa-solid fa-circle" id="circle"></i>9 days</p>
+          </div>
+      </div>
+  </section>
+
+  <section class="mission-section">
+    <div class="text-left">
+      <h2>Mission</h2>
+      <p>To provide personalized travel experiences that cater to the unique
+        needs and interests of each individual traveler.</p>
+    </div>
+
+    <div class="text-right">
+      <h2>Vision</h2>
+      <p>To become the leader in personalized travel, offering customized tours and trips that
+        allow travelers to truly immerse themselves in the destinations they visit.</p>
+    </div>
+  </section>
+
+  <section class="summer-section">
+    <div class="summer-text">
+      <h2>Packages<i class="fa-sharp fa-solid fa-seedling" id="packages"></i></h2>
+    <h1>Summer 2023 Packages</h1>
+    <p>Join peoples from across the world and experience the rich cultures<br>in other countries.
+      Our Featured packages allow you to get away from<br>routine, spend time with family and friends.
+    </p>
+    </div>
+  </section>
+
+  <section class="packages-section">
+    <div class="packages-card">
+        <div class="image-slider">
+            <img src="./assests/images/beach1.jpeg" alt="Image 1-1">
+            <img src="./assests/images/beach2.jpeg" alt="Image 1-2">
+            <img src="./assests/images/beach3.jpeg" alt="Image 1-3">
+            <img src="./assests/images/beach4.jpg" alt="Image 1-3">
+        </div>
+        <div class="packages-content">
+            <h2>Exotic Beach Retreat</h2>
+            <p>Destination: Tropical paradise like Bali, Maldives or Seychelles.</p>
+            <p>Duration: 7 days and 6 nights</p>
+            <p>Highlights: Scenic beachfront accommodation, water sports activities, 
+                island hopping, spa treatments and local cultural experience.</p>
+            <p style="color: rgb(255, 25, 25);">Price: $ 9,210 - 10,000</p>
+        </div>
+    </div>
+    <div class="packages-card">
+        <div class="image-slider">
+            <img src="./assests/images/historical1.jpeg" alt="Image 2-1">
+            <img src="./assests/images/historical 2.jpeg" alt="Image 2-2">
+            <img src="./assests/images/historical 3.jpeg" alt="Image 2-3">
+            <img src="./assests/images/historical4.jpeg" alt="Image 2-3">
+        </div>
+        <div class="packages-content">
+            <h2>Historical City Exploration</h2>
+            <p>Destination; Historic cities like Rome, Instabul or Kyoto</p>
+            <p>Duration: 10 days and 10 nights</p>
+            <p style="color: rgb(255, 25, 25);">Price: $ 6,012 - 8,000</p>
+        </div>
+    </div>
+    <div class="packages-card">
+        <div class="image-slider">
+          <img src="./assests/images/luxury1.jpeg" alt="Image 1">
+          <img src="./assests/images/luxury2.jpeg" alt="Image 1">
+          <img src="./assests/images/luxury3.jpeg" alt="Image 1">
+          <img src="./assests/images/luxury4.jpeg" alt="Image 1">
+        </div>
+        <div class="packages-content">
+            <h2>Luxury Getaway</h2>
+            <p>Destination: Destinations like Dubai, Monaco, Paris</p>
+            <p>Duration: 5 days and 4 nights</p>
+            <p> Highlights: Scenic beachfront accommodation, water sports activities, 
+                island hopping, spa treatments and local cultural experience.</p>
+            <p style="color: rgb(255, 25, 25);">Price: $ 11,210 - 15,000</p>
+        </div>
+    </div>
+    <div class="packages-card">
+        <div class="image-slider">
+          <img src="./assests/images/family1.jpeg" alt="Image 1">
+          <img src="./assests/images/family2.jpeg" alt="Image 1">
+          <img src="./assests/images/family3.jpg" alt="Image 1">
+          <img src="./assests/images/family4.jpg" alt="Image 1">
+        </div>
+        <div class="packages-content">
+            <h2>Family Fun Adventure</h2>
+            <p>Destination: Orlando, Singapore, Sydney etc..</p>
+            <p>Duration: 10 days and 9 nights</p>
+            <p>Highlights: Our featured packages allow you tonget away from routines,
+                 spend time with family and friends.</p>
+            <p style="color: rgb(255, 25, 25);">Price: $ 9,210 - 10,000</p>
+        </div>
+    </div>
+</section>
+
+
+  <section class="youtube">
+    <div class="youtube-text">
+      <h2>We Provide High-Quality<br>Travel & Tours Services & Solutions</h2>
+      <p> <button id="youtube"><a href="https://www.youtube.com/watch?v=cu5BZNymMzs&t=37s">
+        <i class="fa-sharp fa-solid fa-circle-play"></i>Watch Video</a></button></p>
+    </div>
+  </section>
+
+
+  <section class="testimonials-section">
+    <div class="section-header">
+        <h1>Testimonials</h1>
+        <h3>What Clients Say</h3>
+    </div>
+    <div class="card-section">
+        <div class="card">
+            <div class="card-content">
+                <p>"The trip was amazing! Every detail was perfectly planned, and the destinations were breathtaking."</p>
+                <h4>- Sarah J.</h4>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <p>"Exceptional service and incredible experiences! I highly recommend this travel agency."</p>
+                <h4>- John D.</h4>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <p>"A seamless travel experience from start to finish. Thank you for making our vacation unforgettable!"</p>
+                <h4>- Emma W.</h4>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-content">
+                <p>"Wonderful destinations and great customer support. We had the best holiday ever!"</p>
+                <h4>- Michael B.</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="world-map">
+  <h2>We're Situated in Different Countries</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg" alt="World Map">
+</section>
+
+
+<footer>
+  <div class="row primary">
+    <div class="column footer-about">
+      <h3>Path<span style="color:rgb(248, 108, 108)">Finder</span></h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+        voluptatem corporis error non,
+      </p>
+                <div class="social">
+                  <i class="fa-brands fa-facebook-square"></i>
+                  <i class="fa-brands fa-instagram-square"></i>
+                  <i class="fa-brands fa-twitter-square"></i>
+      <i class="fa-brands fa-youtube-square"></i>
+        <i class="fa-brands fa-whatsapp-square"></i>
+                </div>
+    </div>
+    <div class="column links">
+      <h3>Company</h3>
+      <ul>
+        <li>
+          <a href="#faq">Blog</a>
+        </li>
+        <li>
+          <a href="#privacy-policy">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#FAQ's">FAQ's</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+      <div class="column links">
+        <h3>Contact Us</h3>
+        <ul>
+          <li>
+            <a href="#address">Spintex - Community 18</a>
+          </li>
+          <li>
+            <a href="#location">Accra - Ghana</a>
+          </li>
+          <li>
+            <a href="#email">pathfindertravelandtours@gmail.com</a>
+          </li>
+          <li>
+            <a href="#contact">+233 20 742 2456</a>
+          </li>
+
+        </ul>
+      </div>
+    <div class="column subscribe">
+      <h3>Newsletter</h3>
+      <div>
+        <input type="email" placeholder="Your email id here" />
+        <button>Subscribe</button>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row copyright"> 
+    <p>Copyright &copy; 2024 Pathfinder Travel and Tours</p>
+  </div>
+</footer>
+
+
+</body>
+</html>
