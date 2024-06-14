@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"           content="Henry">
+    <meta name="description"         content="Travel and Tour Website">
+    <meta name="keywords"            content="Pathfinder + Travel + Tour">
+
+    <!--Linkin CSS-->
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/countries.css">
+
+    <!--Creating icon-->
+    <link href="./assests/images/pathfinder-fotor-bg-remover-20230523214440.png" rel="icon">
+
+    <!--Linking external CSS-->
+    <!-----Linking font awesome------>
+    <link rel="stylesheet" href="./assests/fonts/css/all.css">
+    <link rel="stylesheet" href="./assests/fontawesome-free-6.4.0-web/css/all.css">
+    
+    
+
+    <!--Linking google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+
+    <title>pathfindertravelandtours</title>
+</head>
+<body>
+<!--CREATING NAVIGATION BAR-->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="reservation.html">Reservations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <h1 class="logo">Path<span style="color: rgb(248, 108, 108); font-weight: 600;">Finder</span></h1>
+        </div>
+    </nav>
+
+
+   <section class="usa">
+    <h2>United States</h2>
+
+    <div class="france-content">
+        <h3>Exploring the United States: A Journey of Endless Adventures</h3>
+        <p>The United States, a land of diverse landscapes, vibrant cities, and rich cultural heritage, offers an
+             unparalleled adventure for every type of traveler. From the bustling streets of New York City to the 
+             serene beauty of the Grand Canyon, the USA is a destination that promises unforgettable experiences.</p>
+
+         <h3>New York City: The City That Never Sleeps</h3>
+         <p>New York City, the epitome of urban excitement, is a must-visit for anyone traveling to the United States. 
+            Wander through Central Park, marvel at the towering skyscrapers of Manhattan, and visit iconic landmarks
+             like the Statue of Liberty and Times Square. Explore world-class museums such as the Metropolitan Museum
+              of Art and the Museum of Modern Art (MoMA). With its diverse neighborhoods and endless entertainment 
+              options, New York City truly never sleeps.</p>
+
+        <h3>Practical Tips for Travelers</h3>
+        <p>Language: English is the primary language, but Spanish is widely spoken in many regions.</p>
+
+        <p>Currency: The US Dollar ($) is the currency. Credit cards are widely accepted, but it’s useful to have some 
+            cash for small purchases.</p>
+
+        <p>Transportation: The United States has an extensive transportation network, including domestic flights,
+             trains, buses, and car rentals. Public transportation is available in major cities, but renting a car is
+              often necessary for exploring rural and natural areas.</p>
+    </div>
+
+    <div class="tour-price">
+        <div class="price-tag"><h3>$ 5,200</h3></div>
+        <div class="person"><h3>One tour per person</h3></div>
+    </div>
+    
+        <div class="book-now-container">
+            <form>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="destination">Destination</label>
+                    <select id="destination" name="destination" required>
+                        <option value="" disabled selected>Select your destination</option>
+                        <option value="paris">Paris</option>
+                        <option value="rome">Rome</option>
+                        <option value="new-york">New York</option>
+                        <option value="tokyo">Tokyo</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="travel-dates">Travel Dates</label>
+                    <input type="date" id="travel-dates" name="travel-dates" required>
+                </div>
+                <button type="submit" class="book-now-btn">Book Now</button>
+            </form>
+        </div>
+</section>
+
+<div class="null">
+</div>
+
+<div class="cities-section">
+    <div class="city-card">
+        <img src="./assests/images/NewYork.jpg" alt="Paris">
+        <div class="card-text">New York</div>
+    </div>
+    <div class="city-card">
+        <img src="./assests/images/Los Angeles.jpg" alt="Marseille">
+        <div class="card-text">Los Angeles</div>
+    </div>
+    <div class="city-card">
+        <img src="./assests/images/Texas.jpg" alt="Lyon">
+        <div class="card-text">Texas</div>
+    </div>
+    <div class="city-card">
+        <img src="./assests/images/Carlifonia.jpg" alt="Nice">
+        <div class="card-text">Carlifonia</div>
+    </div>
+    <div class="city-card">
+        <img src="./assests/images/Florida.jpg" alt="Nice">
+        <div class="card-text">Florida</div>
+    </div>
+</div>
+
+
+   <footer>
+    <div class="row primary">
+      <div class="column footer-about">
+        <h3>Path<span style="color:rgb(248, 108, 108)">Finder</span></h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+          voluptatem corporis error non,
+        </p>
+                  <div class="social">
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+        <i class="fa-brands fa-youtube-square"></i>
+          <i class="fa-brands fa-whatsapp-square"></i>
+                  </div>
+      </div>
+      <div class="column links">
+        <h3>Company</h3>
+        <ul>
+          <li>
+            <a href="#faq">Blog</a>
+          </li>
+          <li>
+            <a href="#privacy-policy">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#FAQ's">FAQ's</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+  
+        </ul>
+      </div>
+        <div class="column links">
+          <h3>Contact Us</h3>
+          <ul>
+            <li>
+              <a href="#address">Spintex - Community 18</a>
+            </li>
+            <li>
+              <a href="#location">Accra - Ghana</a>
+            </li>
+            <li>
+              <a href="#email">pathfindertravelandtours@gmail.com</a>
+            </li>
+            <li>
+              <a href="#contact">+233 20 742 2456</a>
+            </li>
+  
+          </ul>
+        </div>
+      <div class="column subscribe">
+        <h3>Newsletter</h3>
+        <div>
+          <input type="email" placeholder="Your email id here" />
+          <button>Subscribe</button>
+        </div>
+  
+      </div>
+    </div>
+  
+    <div class="row copyright"> 
+      <p>Copyright &copy; 2024 Pathfinder Travel and Tours</p>
+    </div>
+  </footer>
+
+
+
+
+
+    
+</body>
+</html>
