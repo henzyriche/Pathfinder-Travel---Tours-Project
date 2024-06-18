@@ -501,6 +501,7 @@
   transition: 0.4s;
   width: 100%;
   cursor: pointer;
+  object-fit: cover;
 }
 .country-card-content {
   margin: 10px;
@@ -531,11 +532,17 @@
     width: 90%;
     margin-left: 5%;
     height: 400px;
+    border-radius: 0.7rem;
   }
 
   .country-card img {
     width: 100%;
     height: 200px;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+  
+    object-fit: cover;
+
   }
   .country-card-content {
     margin-top: 15px;
@@ -549,6 +556,12 @@
   }
   .country-card-content p{
     font-size: 11px;
+  }
+  .country-card:hover{
+    transform: scale(1.0);
+    transition: 0.4s;
+    width: 90%;
+    cursor: pointer;
   }
 }
 
@@ -1395,10 +1408,10 @@ div.social {
     background: transparent;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 0.8em;
     transition: background-color 0.3s ease;
   }
   
